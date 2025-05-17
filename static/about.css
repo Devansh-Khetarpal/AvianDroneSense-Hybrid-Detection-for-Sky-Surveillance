@@ -1,0 +1,138 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #ffe1e0, #f49bab);
+  color: #666;
+  overflow-x: hidden;
+}
+
+/* Header */
+header {
+  background-color: #7f55b1;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  position: relative;
+}
+
+/* About Box */
+.about-box {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  padding: 3rem;
+  max-width: 900px;
+  text-align: center;
+  animation: floatBox 1s ease-out;
+}
+
+/* Headings */
+.about-section h2 {
+  font-size: 2.5rem;
+  color: #7f55b1;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+/* Paragraph */
+.about-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #444;
+  opacity: 0;
+  animation: slideInText 2s forwards;
+}
+
+.about-section p:nth-of-type(2) {
+  animation-delay: 1s;
+}
+
+/* Highlight */
+.highlight {
+  color: #f49bab;
+  font-weight: bold;
+}
+
+/* Floating Drone Image */
+.floating-drone {
+  width: 200px;
+  border-radius: 20px; /* Rounded edges */
+  animation: float 3s ease-in-out infinite;
+  margin: 2rem 0;
+}
+
+/* Button */
+.cta-button {
+  margin-top: 2rem;
+  background-color: #7f55b1;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #f49bab;
+}
+
+/* Features text */
+.feature-text {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  animation: slideInText 1.5s forwards;
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes floatBox {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInText {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Our Team</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='people.css') }}">
+</head>
+<body>
+
+  <section class="people-section">
+    <h2>Meet Our Team</h2>
+    <div class="people-container">
+
+      <div class="person-card">
+        <img src="{{ url_for('static', filename='devansh.jpg') }}" alt="Devansh" />
+        <h3>Devansh Khetarpal</h3>
+        <p class="role">Section-D</p>
+        <p>Univ Rollno - 2118500</p>
+      </div>
+
+      <div class="person-card">
+        <img src="{{ url_for('static', filename='isha.jpg') }}" alt="Isha" />
+        <h3>Isha Khetarpal</h3>
+        <p class="role">Section-D</p>
+        <p>Univ Rollno - 2118650</p>
+      </div>
+
+      <div class="person-card">
+        <img src="{{ url_for('static', filename='daksh.jpg') }}" alt="Daksh" />
+        <h3>Daksh Rawat</h3>
+        <p class="role">Section-D</p>
+        <p>Univ Rollno - 2118468</p>
+      </div>
+
+      
+
+    </div>
+  </section>
+
+</body>
+</html>

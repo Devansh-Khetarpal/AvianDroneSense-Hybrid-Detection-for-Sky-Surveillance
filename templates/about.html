@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Drone & Bird Detection System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+</head>
+<body>
+  <header>
+    Advanced Drone & Bird Detection System
+  </header>
+
+  <section class="about-section">
+    <img src="{{ url_for('static', filename='logo.jpg') }}" alt="Drone" class="floating-drone" />
+    <div class="about-box" id="content-box">
+      <h2>Revolutionizing Aerial Monitoring</h2>
+      <p>
+        Our Drone and Bird Detection System uses advanced machine learning to accurately identify drones and birds in real-time. Powered by a YOLOv8 model, it offers fast and reliable detection, making it ideal for security, surveillance, and wildlife monitoring. Equipped with real-time imaging, AI-powered obstacle avoidance, and extended flight endurance, this system excels in environmental surveys, agriculture, and disaster management.
+      </p>
+      <p>
+        Featuring an intuitive interface and seamless controls, it adapts perfectly for beginners and professionals alike, enabling you to capture critical data or stunning landscapes with ease.
+      </p>
+      <button class="cta-button" onclick="showFeatures()">Explore Features</button>
+    </div>
+
+    <div class="about-box" id="features" style="display:none; margin-top: 2rem;">
+      <p class="feature-text">✅ <span class="highlight">Real-Time Detection:</span> Identifies and locates drones and birds instantly.</p>
+      <p class="feature-text">✅ <span class="highlight">User-Friendly:</span> Easy to use with camera-based detection or image/video uploads.</p>
+      <p class="feature-text">✅ <span class="highlight">Autonomous Navigation:</span> Uses AI to map and fly intelligently in real-time.</p>
+      <p class="feature-text">✅ <span class="highlight">4K Ultra HD Camera:</span> Capture crisp, detailed imagery from any angle.</p>
+      <p class="feature-text">✅ <span class="highlight">Modular Battery System:</span> Easily swappable batteries extend mission time.</p>
+      <p class="feature-text">✅ <span class="highlight">Weather Resistance:</span> Reliable operation in various outdoor conditions.</p>
+      <p class="feature-text">✅ <span class="highlight">Custom Alerts:</span> Get notified when a drone is detected.</p>
+      <p class="feature-text">✅ <span class="highlight">High Accuracy:</span> Reliable performance across various environments.</p>
+    </div>
+  </section>
+
+  <script>
+    function showFeatures() {
+      document.getElementById('content-box').style.display = 'none';
+      document.getElementById('features').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
