@@ -51,4 +51,11 @@ This system is especially useful in **surveillance**, **aviation**, and **defens
 
 ---
 
+# 🛠️ Installation & Setup
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/Devansh-Khetarpal/AvianDroneSense-Hybrid-Detection-for-Sky-Surveillance.git
+cd AvianDroneSense-Hybrid-Detection-for-Sky-Surveillance
+
 
