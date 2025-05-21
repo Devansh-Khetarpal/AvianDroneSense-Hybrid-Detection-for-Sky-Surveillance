@@ -1,14 +1,14 @@
-# 🛸 Drone vs Bird Detection System
+# 🛸 AvianDroneSense-Hybrid-Detection-for-Sky-Surveillance
 
 ## 🔍 Overview
 
 The **Drone vs Bird Detection System** is an intelligent real-time object detection tool that uses a YOLOv8 deep learning model to accurately distinguish between drones and birds from images, videos, and live camera feeds.
 
 Built using the **Ultralytics YOLOv8** framework and integrated with a **Flask** web interface, the system can detect drones with high precision and perform automated actions like:
-- Sounding an alarm if a drone is detected for more than 5 seconds.
-- Automatically recording a 10-second video when a drone is detected.
-- Logging the detection timestamp for records.
-- Offering users the option to upload images or videos for offline detection.
+- Sounding an alarm if a drone is detected for more than 4 seconds.
+- 
+- 
+-
 
 This system is especially useful in **surveillance**, **aviation**, and **defense** sectors where distinguishing drones from birds is crucial.
 
@@ -17,7 +17,7 @@ This system is especially useful in **surveillance**, **aviation**, and **defens
 ## 📸 Project Preview
 
 ### 🖼️ Image Upload Interface
-![Image Upload](images/upload_interface.png)
+![Image Upload](images/interface.png)
 
 ### 🎥 Real-Time Detection Interface
 ![Real-time Detection](images/real_time_detection.png)
