@@ -19,13 +19,13 @@ This system is especially useful in **surveillance**, **aviation**, and **defens
 
 ## 📸 Project Preview
 
-### 🖼️ Image Upload Interface
+### 🖼️ User Interface
 ![Image Upload](images/interface.png)
 
-### 🎥 Real-Time Detection Interface
+### 🖼️ Image Upload Feature
 ![Real-time Detection](images/real_time_detection.png)
 
-### 📦 Drone Detection Example
+### 🎥 Video Detection Feature
 ![Detection Example](images/detection_example.png)
 
 
